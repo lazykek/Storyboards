@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         /*
          storyboard.instantiateViewController -> парсинг -> init(coder: NSCoder)
          имя переменной (testLabel) связывается с ObjectID
-         зачем нужен  id="oSe-0O-rdk" - ?
+         Делаем вывод, что connection - это тоже элемент со своим уникальным ID
          */
         super.init(coder: coder)
     }

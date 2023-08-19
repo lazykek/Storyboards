@@ -35,8 +35,8 @@
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                     </view>
                     <connections>
-                        <outlet property="anotherTestLabel" destination="nej-y0-x2x" id="some_id"/>
-                        <outlet property="testLabel" destination="OO1-jh-C8n" id="some_id"/>
+                        <outlet property="anotherTestLabel" destination="nej-y0-x2x" id="oSe-0O-rdk"/>
+                        <outlet property="testLabel" destination="OO1-jh-C8n" id="oSe-0O-rdm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
