@@ -17,6 +17,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let viewController = storyboard.instantiateViewController(
             withIdentifier: "ViewControllerID"
         )
+        // метод setValue(setValue:forUndefinedKey:) вызывается, когда не выходит найти ключ
+        // Нужен ресерч доки
+        // https://developer.apple.com/documentation/objectivec/nsobject/nskeyvaluecoding
+        viewController.setValue("Hello World!", forKeyPath: "text")
         let window = UIWindow(windowScene: scene)
         window.rootViewController = viewController
         window.makeKeyAndVisible()
