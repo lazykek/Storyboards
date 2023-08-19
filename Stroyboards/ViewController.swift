@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private var testLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.testLabel.text = "Test"
     }
 
 
