@@ -9,11 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet private var testLabel: UILabel!
+    @IBOutlet private var wrongTestLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.testLabel.text = "Test"
+        self.wrongTestLabel.text = "Test"
     }
 
 
