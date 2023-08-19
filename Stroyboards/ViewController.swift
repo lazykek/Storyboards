@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet private var testLabel: UILabel!
-    private var text: String!
+    @objc private var text: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
