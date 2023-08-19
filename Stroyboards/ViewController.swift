@@ -19,6 +19,7 @@ class ViewController: UIViewController {
          имя переменной (testLabel) связывается с ObjectID
          Делаем вывод, что connection - это тоже элемент со своим уникальным ID
          Также есть возможность сменить ID элемента
+         https://stackoverflow.com/questions/38716293/main-storyboardc-could-not-be-opened-interface-builder-cannot-open-compiled-nib
          */
         super.init(coder: coder)
     }
